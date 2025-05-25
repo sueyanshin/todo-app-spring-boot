@@ -1,0 +1,67 @@
+*{
+    font-family:'Urbanist', 'san-serif';
+}
+body{
+    background-color: #111;
+}
+body {
+      background-color: #121212;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .todo-card {
+      width: 320px;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .todo-card h5 {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .todo-card h5 i {
+      margin-right: 10px;
+    }
+
+    .task-input {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .task-list {
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .task-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .form-check-input {
+      border-radius: 50%;
+    }
+
+    .delete-icon {
+      cursor: pointer;
+      color: #aaa;
+    }
+
+    .delete-icon:hover {
+      color: red;
+    }
+
+    .add-btn {
+      background-color: #f6533c;
+      color: white;
+    }
